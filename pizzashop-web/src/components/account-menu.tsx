@@ -23,9 +23,9 @@ export function AccountMenu() {
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-56">
         <DropdownMenuLabel className="flex flex-col">
-          <span>Diego Fernandes</span>
+          <span>Douglas Matsudo</span>
           <span className="text-xs font-normal text-muted-foreground">
-            diego@rocketseat.com.br
+            dhidekim@gmail.com
           </span>
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
