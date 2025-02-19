@@ -322,6 +322,11 @@
   resolved "https://registry.npmjs.org/@eslint/js/-/js-8.57.1.tgz"
   integrity sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==
 
+"@hookform/resolvers@^3.3.2":
+  version "3.10.0"
+  resolved "https://registry.npmjs.org/@hookform/resolvers/-/resolvers-3.10.0.tgz"
+  integrity sha512-79Dv+3mDF7i+2ajj7SkypSKHhl1cbln1OGavqrsF7p6mbUv11xpqpacPsGDCTRvCSjEEIez2ef1NveSVL3b0Ag==
+
 "@humanwhocodes/config-array@^0.13.0":
   version "0.13.0"
   resolved "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.13.0.tgz"
@@ -2661,6 +2666,7 @@ pirates@^4.0.1:
 "pizzashop-web@file:.":
   version "0.0.0"
   dependencies:
+    "@hookform/resolvers" "^3.3.2"
     "@radix-ui/react-label" "^2.0.2"
     "@radix-ui/react-slot" "^1.0.2"
     class-variance-authority "^0.7.0"
@@ -2668,14 +2674,17 @@ pirates@^4.0.1:
     localforage "^1.10.0"
     lucide-react "^0.295.0"
     match-sorter "^6.3.1"
-    pizzashop-web "file:../../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-pizzashop-web-0.0.0-82b97dbc-e143-48a0-b6d1-833952eb09f0-1739913929890/node_modules/pizzashop-web"
+    pizzashop-web "file:../../../../Users/dhide/AppData/Local/Yarn/Cache/v6/npm-pizzashop-web-0.0.0-32eb17e5-92a2-4d46-a170-3eab7c9a735d-1739928412309/node_modules/pizzashop-web"
     react "^18.2.0"
     react-dom "^18.2.0"
     react-helmet-async "^2.0.3"
+    react-hook-form "^7.49.2"
     react-router-dom "^6.21.0"
+    sonner "^1.2.4"
     sort-by "^1.2.0"
     tailwind-merge "^2.1.0"
     tailwindcss-animate "^1.0.7"
+    zod "^3.22.4"
 
 possible-typed-array-names@^1.0.0:
   version "1.1.0"
@@ -2797,6 +2806,11 @@ react-helmet-async@^2.0.3:
     invariant "^2.2.4"
     react-fast-compare "^3.2.2"
     shallowequal "^1.1.0"
+
+react-hook-form@^7.49.2:
+  version "7.54.2"
+  resolved "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.54.2.tgz"
+  integrity sha512-eHpAUgUjWbZocoQYUHposymRb4ZP6d0uwUnooL2uOybA9/3tPUvoAKqEWK1WaSiTxxOfTpffNZP7QwlnM3/gEg==
 
 react-is@^16.13.1:
   version "16.13.1"
@@ -3097,6 +3111,11 @@ slash@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/slash/-/slash-3.0.0.tgz"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
+
+sonner@^1.2.4:
+  version "1.7.4"
+  resolved "https://registry.npmjs.org/sonner/-/sonner-1.7.4.tgz"
+  integrity sha512-DIS8z4PfJRbIyfVFDVnK9rO3eYDtse4Omcm6bt0oEr5/jtLgysmjuBl1frJ9E/EQZrFmKx2A8m/s5s9CRXIzhw==
 
 sort-by@^1.2.0:
   version "1.2.0"
@@ -3567,3 +3586,8 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+zod@^3.22.4:
+  version "3.24.2"
+  resolved "https://registry.npmjs.org/zod/-/zod-3.24.2.tgz"
+  integrity sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==
