@@ -14,7 +14,7 @@ Projeto PizzaShop WEB: desenvolvido para o MBA Rocketseat Full-stack.
 <br>
 
 <p align="center">
-  <img alt="Preview do projeto desenvolvido." src="/public/preview.png" width="60%">
+  <img alt="Preview do projeto desenvolvido." src="public/preview.png" width="60%">
 </p>
 
 ## 🚀 Tecnologias
