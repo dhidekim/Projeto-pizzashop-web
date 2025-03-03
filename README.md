@@ -14,7 +14,7 @@ Projeto PizzaShop WEB: desenvolvido para o MBA Rocketseat Full-stack.
 <br>
 
 <p align="center">
-  <img alt="Preview do projeto desenvolvido." src="/public/preview.png" width="60%">
+  <img alt="Preview do projeto desenvolvido." src="pizzashop-web/public/preview.png" width="60%">
 </p>
 
 ## 🚀 Tecnologias
@@ -32,3 +32,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## Projeto
 
 Nesse projeto foi desenvolvido uma aplicação web com Dashboard para controle de Pedidos para uma Pizzaria, bem com seus testes unitários e testes end to end.
+
+Este projeto necessita do serviço de Backend que se encontra: https://github.com/dhidekim/pizzashop-api
